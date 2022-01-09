@@ -1,0 +1,36 @@
+{
+  "models": [
+    {
+      "name": "user",
+      "func": [
+        {
+          "name": "insert"
+        }
+      ]
+    },
+    {
+      "name": "order",
+      "func": [
+        {
+          "name": "insert"
+        },
+        {
+          "name": "getAll"
+        }
+      ]
+    }
+  ],
+  "dataBaseConnexion": {
+    "login": "root",
+    "mdp": "sherine2011*",
+    "dataBaseName": "test",
+    "driverName": "mysql"
+  },
+  "session": {
+    "secret": "s6Ndh+pPbnzHbS*+9Pk8qGWhTzbpa@ge"
+  },
+  "logFile": {
+    "stdout": "INFO\t",
+    "stderr": "ERRORt\t"
+  }
+}
